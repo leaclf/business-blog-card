@@ -65,3 +65,12 @@ body {
   color: #677489;
   margin-top: 0;
 }
+.credit {
+  color: grey;
+  margin-bottom: 0;
+}
+.credit a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
