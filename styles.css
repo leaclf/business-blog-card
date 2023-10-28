@@ -1,0 +1,67 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  background: #f2f5f9;
+  display: grid;
+  place-items: center;
+  font-family: "lato", Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.card {
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 12px;
+}
+.image-container {
+  height: 220px;
+}
+.card__image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.card__body {
+  padding: 2em 2em 0;
+  background: url(white-overlay.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -1em;
+}
+.card__title {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #111729;
+  margin: 2em 0 0.5em;
+}
+.card__description {
+  color: #677489;
+  margin: 0 0 1.5em;
+}
+.card__media {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+  padding-top: 1.5em;
+}
+.media__image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.media__title {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #111729;
+}
+.media__position {
+  color: #677489;
+  margin-top: 0;
+}
